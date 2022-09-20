@@ -1,0 +1,36 @@
+"info": {
+    "version": "1.0.0",
+    "title": "SentimentDemo",
+    "description": "Uses the Cognitive Services Text Analytics Sentiment API to determine whether text is positive or negative"
+  },
+  "host": "westus.api.cognitive.microsoft.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ]
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "Ocp-Apim-Subscription-Key"
+    }
+  }
+  "paths": {
+    "/text/analytics/v2.0/sentiment": {
+      "post": {
+        "summary": "Returns a numeric score representing the sentiment detected",
+        "description": "The API returns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
+        "operationId": "DetectSentiment"}
+      }
+    }
+    "score": {
+        "type": "number",
+        "format": "float",
+        "description": "score",
+        "x-ms-summary": "score"
+       },
+       "id": {
+        "type": "string",
+        "description": "id",
+        "x-ms-summary": "id"
+       }
