@@ -1,0 +1,14 @@
+tb_diretor
+id_diretor
+nome_diretor
+==========  
+tb_filme
+id_filme
+nome_filme
+id_diretor
+id_produtora
+genero
+==================
+tb_produtora
+id_produtora
+nome_produtora
