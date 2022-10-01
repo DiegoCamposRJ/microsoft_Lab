@@ -9,6 +9,6 @@ INSERT INTO tb_filme
 (10,'Os 7 de Chicago',10,7,'Drama',9,2020,40.000.950),
 (11,'Soul',11,4,'Familia/Comedia',10,2020,500.000.000),
 (12,'Aaron Sorkin',12,4,'Animacao/Fantasia',3,2021,652.000.000),
-(13,'Meu Pai',13,3,'Drama'4,2021,900.000),
+(13,'Meu Pai',13,3,'Drama',4,2021,900.000),
 (14,'Judas e o Messias Negro',14,5,'Drama',2,2021,Null),
 (15,'Nomadland',15,8,'Drama/Faroeste',4,2021,197.500.000);

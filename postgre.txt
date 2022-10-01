@@ -4,18 +4,18 @@ nome_diretor
 (1,"Steven Spielberg")
 (2,"James Cameron")
 (3,"Quentin Tarantino")
-(4, Anthony Russo/Joe Russo)
-(5, Jon Favreau)
-(6, Jon Watts)
-(7,	J.J.Abrams)
-(8, Destin Cretton)
-(9, Sam Mendes)
-(10, Aaron Sorkin)
-(11, Pete Docter)
-(12, Paul Briggs)
-(13, Florian Zeller)
-(14, Shaka King)
-(15,Chloe Zhao)
+(4, 'Anthony Russo/Joe Russo'),
+(5, 'Jon Favreau'),
+(6, 'Jon Watts'),
+(7,	'J.J.Abrams'),
+(8, 'Destin Cretton'),
+(9, 'Sam Mendes'),
+(10, 'Aaron Sorkin'),
+(11, 'Pete Docter'),
+(12, 'Paul Briggs'),
+(13, 'Florian Zeller'),
+(14, 'Shaka King'),
+(15, 'Chloe Zhao');
 ==========  
 tb_filme
 id_filme
@@ -30,8 +30,16 @@ nome_produtora
 (1,	"20h Century Studio")
 (2, "Sony Pictures")
 (3,	"Paramount Pictures")
-(4, Walt Disney Studios Motion Pictures)
-(5, Warner Bros. Pictures)
-(6, Universal Studios)
-(7, Netflix)
-(8, Searchlight Pictures)
+(4, 'Walt Disney Studios Motion Pictures'),
+(5, 'Warner Bros. Pictures'),
+(6, 'Universal Studios'),
+(7, 'Netflix'),
+(8, 'Searchlight Pictures');
+==================================================================================
+tb_cinema
+id_cinema
+nome_cinema
+quant_salas
+capac_total
+cidade
+estado
